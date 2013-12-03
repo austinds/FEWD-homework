@@ -1,0 +1,160 @@
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+body {
+	font-size: 16px;
+	line-height:1.5;
+}
+#container {
+	width: 980px;
+	margin: auto;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+}
+aside#sidebar{
+	float: right;
+	width: 38%;
+}
+#main{
+	float: left;
+	width: 60%;
+
+}
+header{
+	text-align: left;
+
+}
+header h2{
+	display: inline;
+
+}
+article{
+	padding-bottom: 20px;
+	padding-top: 10px;
+	margin-top: 40px;
+	border-bottom: 1px solid #DDD;
+}
+
+
+h3{
+	font-size: 2.5em;
+	font-weight: normal;
+	padding-top: 30px;
+	color:#95a5a6;
+	margin-bottom: -10px;
+}
+
+a {
+	color: #D00;
+	text-decoration:none;
+	-webkit-transition: all 300ms;
+}
+a:hover {
+	color: #A00;
+}
+h1 {
+	font-size: 3em;
+	font-weight: normal;
+	color: red;
+	text-decoration: red;
+	line-height: 1.5;
+	}
+header .nav {
+	color: #DDD;
+	margin-right: 10px;
+	display: inline;
+	}
+
+header .nav a {
+	color: #DDD;
+	border-bottom: solid 2px #DDD;
+	margin-right: 1px;
+	background: black;
+	color: white;
+	font-size: 1.5em;
+	padding: 15px;
+	}
+header .nav ul li {
+	color: #DDD;
+	display: inline;
+	}
+header .nav a:hover {
+	color: white;
+	background: #900;
+}
+h2 a{
+	font-size: 1em;
+	color: black;
+	text-decoration: black;
+}
+h4 a {
+	font-size: 20px;
+	color: red;
+	text-decoration: red;
+	text-align: right;
+	float: right;
+	width:100%;
+	margin-right: 80px;
+	padding-bottom: 20px;
+	
+}
+h4 {
+	font-size: 20px;
+	color: black;
+	text-decoration: red;
+	width:100%;
+	margin-right: 80px;
+	padding-bottom: 20px;
+}
+p{
+	margin-top: 18px;
+	margin-right: 80px;
+}
+p:first-letter{ 
+	font-size:6em;
+	color:#95a5a6;
+	font-weight: normal;
+	float: left;
+	line-height: 1;
+	margin: -.1em .1em 0 -.1em;
+}
+p.noCAPS:first-letter{
+	font-size: 1em;
+}
+
+.blog{
+	float: left;
+
+}
+
+
+.module{
+	float:left;
+	display:inline;
+	border-bottom: 1px solid #DDD;
+}
+.module h4{
+	
+}
+.module_ad{
+	width: 350px;
+	border-bottom: 1px solid #DDD;
+}
+img {
+	width: 100%;
+}
+footer {
+
+}
+footer .nav {
+	color: black;
+	}
+
+footer .nav ul li {
+	display:inline;
+}
