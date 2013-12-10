@@ -104,6 +104,16 @@ li a{
 .subheader{
      border: 1px solid black;
      background: #95a5a6;   
+     text-align: center;
+     margin: 0;
+     padding-top: 20px;
+}
+.subheader del {
+     color: #999;
+}
+.subheader ins {
+     text-decoration: none;
+     border-bottom: 3px solid yellow;
 }
 .subheader p{
      text-align: center;
@@ -150,6 +160,10 @@ li a{
      color: black;
 }
 .finddev a{
+     background: #95a5a6;
+     color: black;
+}
+.finddesigner a{
      background: #95a5a6;
      color: black;
 }
